@@ -1,5 +1,5 @@
 # Given a string S consisting only ‘a’s and ‘b’s, print the last index of the ‘b’ present in it.
-
+# taken from great learning blog
 
 # Rotate all the elements left by 1 position
 def rot_left_once(arr):
