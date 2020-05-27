@@ -23,11 +23,12 @@ class Solution:
             r.append(nums[i])
 
 
+#
 # nums =   list(map(int,input().split()))
 # target =  int(input())
+
 
 if __name__ == "__main__":
     solution = Solution()
     # solution.twoSum(nums, target)
     print(solution.twoSum([2, 7, 11, 15], 9))
-
