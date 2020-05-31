@@ -27,7 +27,7 @@
 
 
 # if __name__ == "__main__":
-#     solution = Solution()
+#     solution =   Solution()
 #     # solution.twoSum(nums, target)
 #     print(solution.twoSum([2, 7, 11, 15], 9))
 
