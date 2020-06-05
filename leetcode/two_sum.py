@@ -22,8 +22,6 @@
 
 #             r.append(nums[i])
 
-
-
 # # nums =   list(map(int,input().split()))
 # # target =  int(input())
 
