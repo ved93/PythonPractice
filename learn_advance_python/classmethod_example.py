@@ -23,5 +23,3 @@ class MyDate(Date):
     def yow(self):
         print('Yow')
 
-
-
