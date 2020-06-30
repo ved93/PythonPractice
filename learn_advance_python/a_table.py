@@ -59,3 +59,17 @@ class CSVTableFormatter(TableFormatter):
 
     def row(self, rowdata):
         print(','.join(rowdata))
+
+
+
+def create_formatter(name):
+    if name == 'text':
+        formatter = TextTableFormatter
+    elif name == 'csv':
+        formatter = CSVTableFormatter
+    else:
+        raise ValueError('Unknown format {}'.format(name))
+
+    return formatter
+
+    

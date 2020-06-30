@@ -1,4 +1,7 @@
 
+#we use classmethod when some methods take inputs in a different way and we want it be part of the class. 
+
+
 class Date(object):
     def __init__(self,year,month,day):
         self.year =year
@@ -7,6 +10,7 @@ class Date(object):
 
     @classmethod
     def from_string(cls,s):
+        # self = cls()
         parts = s.split('-')
         return cls(int(parts[0]), int(parts[1]), int(parts[2]))
 

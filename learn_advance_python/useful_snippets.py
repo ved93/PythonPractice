@@ -1,8 +1,8 @@
 
+#Note: some var have been shown in string. Plz correct them 
 
-
-#adding a path 
-env PYTHONPATH = .. python
+#adding a path. This will home path 
+# env PYTHONPATH = .. python
 
 
 #to foramet print o/p
@@ -16,13 +16,16 @@ out.close()
 
 
 #str join
-','.join(string_names)
+','.join('string_names')
 
 
 #use dict to pair the data i n zip
 # dict with zip is highly useful
 
 #take advantages dict comprehension . ie.e
-prices  = {name:float(price) for name, price in zip(uniquee_names, price_data)}
+prices  = {name:float(price) for name, price in zip('uniquee_names', 'price_data')}
 
+#Take advantage of isinstance method. Put this in funct
+if not isinstance('obj', float):
+    raise TypeError('Expected float')
 

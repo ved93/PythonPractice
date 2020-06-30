@@ -58,3 +58,6 @@ table.print_table_new(portfolio, ['name', 'shares'], formatter)
 
 
 
+formatter= table.create_formatter('text')()
+
+
