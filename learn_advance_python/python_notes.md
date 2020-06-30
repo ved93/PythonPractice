@@ -10,5 +10,6 @@
 8. The big idea of inheritance is that you can take an existing class and customise in some way you want.
 9. if you have typos in your class then, error wont help you in debug properly.To avoid this, use abtractmethod. check ex in abstrcatmethod.py
 10. If you are using inheritance, it always a goodd idea to use abstractmethod in base class.
-11. 
+11. *args- store in tuple and **kwargs- store in dict
+12. 
 
