@@ -10,6 +10,7 @@
 #tip 3
 # property method- This is used when youn want to put validation or checks for a class obj check the example price
 # 2nd use: when you wan to use computed method as attribute. i.e. now you can use cost as h.cost same as h.name etc
+#basically you call method without () and on the fly computing it. 
 #check validate descriptor.py for next version of this
 
 #tip 4
