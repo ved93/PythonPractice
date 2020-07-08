@@ -48,7 +48,7 @@ for h in portfolio:
 names = [h.names for h in portfolio]    
 
 
-import table
+import a_table
 
 table.print_table(portfolio, ['name', 'shares'])
 

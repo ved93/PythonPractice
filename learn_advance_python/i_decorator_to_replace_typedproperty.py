@@ -1,6 +1,6 @@
 
 #decorator example
-from 07_logcall import logformat,logmethods
+from h_logcall import logformat,logmethods
 logged  = logformat('You are calling {func.__name__}')  
 
 
@@ -49,7 +49,7 @@ def typed(cls):
 def validate(**kwargs):
     def decorate(cls):
         for name,val in kwargs.items():
-            setattr(cls,name,val(name)):
+            setattr(cls,name,val(name))
         return cls
     return decorate
 
