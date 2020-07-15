@@ -12,9 +12,8 @@ def rot_left_once(arr):
 
 # Use the above function to repeat the process for d times.
 def rot_left(arr, d):
-    n = len(arr)
-    for i in range(d):
-        rot_left_once(arr, n)
+    for _ in range(d):
+        rot_left_once(arr)
 
 
 arr = list(map(int, input().split()))
