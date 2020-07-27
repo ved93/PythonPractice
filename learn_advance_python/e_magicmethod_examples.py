@@ -20,6 +20,7 @@
 
 #extras
 #h.name is same as h.__dict__['name']
+#use getattr to access the class objects-- check table.py functions to get flavor
 
 class Holding(object):
     def __init__(self, name, date, shares, price):

@@ -1,4 +1,21 @@
-## Debugging Tips
+
+
+
+- [1. edjhef](#1-edjhef)
+  - [1.1 Debugging Tips](#11-debugging-tips)
+  - [1.3 ejdej](#13-ejdej)
+- [2. djedfke](#2-djedfke)
+
+
+
+# 1. edjhef
+
+## 1.1 Debugging Tips
+
+## 1.3 ejdej
+
+# 2. djedfke
+
 
 1. Run with python -i scriptname. It will run interpereter mode . and you can work like jupyter notebook
 2. import pdb; pdb.pm(); It directly takes you to where exactly is the error.
@@ -11,5 +28,7 @@
 9. if you have typos in your class then, error wont help you in debug properly.To avoid this, use abtractmethod. check ex in abstrcatmethod.py
 10. If you are using inheritance, it always a goodd idea to use abstractmethod in base class.
 11. *args- store in tuple and **kwargs- store in dict
-12. 
+12. frfrtgt *esa hu* **wo bola** fhjdjk
+
+
 
