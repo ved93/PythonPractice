@@ -1,4 +1,6 @@
 
+#https://sahandsaba.com/python-iterators-generators.html
+
 #generators are one time use. Sol is build a class for it.
 
 def grep(pattern, filename):
