@@ -31,6 +31,8 @@
 #     # solution.twoSum(nums, target)
 #     print(solution.twoSum([2, 7, 11, 15], 9))
 
+# https://leetcode.com/problems/two-sum/discuss/662/Python-dictionary-and-two-pointer-solutions.
+
 
 from collections import defaultdict
 
