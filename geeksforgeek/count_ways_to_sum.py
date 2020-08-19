@@ -42,6 +42,5 @@ def countWays(n):
   
       
 # Driver code  
-
-n = 4
+n = 10
 print (countWays(n))
