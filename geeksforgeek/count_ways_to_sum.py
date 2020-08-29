@@ -30,6 +30,7 @@ def countWays(n):
   
     DP = [0 for i in range(0, n + 1)] 
     print(DP)  
+    # DP[7]
     # base cases 
     DP[0] = DP[1] = DP[2] = 1
     DP[3] = 2
