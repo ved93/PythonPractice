@@ -17,6 +17,8 @@
 # 2. djedfke
 
 
+https://gto76.github.io/python-cheatsheet/
+
 1. Run with python -i scriptname. It will run interpereter mode . and you can work like jupyter notebook
 2. import pdb; pdb.pm(); It directly takes you to where exactly is the error.
 3. To 
