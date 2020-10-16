@@ -1,4 +1,10 @@
 
+
+
+#http://zetcode.com/python/python-decorators/
+
+
+
 #decorator example
 from h_logcall import logformat,logmethods
 logged  = logformat('You are calling {func.__name__}')  
