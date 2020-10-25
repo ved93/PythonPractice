@@ -51,15 +51,16 @@ def two_sums(nums, target):
     return None
 
 
-print(two_sums([2, 7, 11, 15], 26))
-print(two_sums([3, 3], 6))
+# print(two_sums([2, 7, 11, 15], 26))
+# print(two_sums([3, 3], 6))
 
 
 
 
 # two-pointer       
-def twoSum(self, nums, target):
+def twoSum( nums, target):
     nums = enumerate(nums)
+    print([[x,y] for x,y in nums])
     nums = sorted(nums, key=lambda x:x[1])
     l, r = 0, len(nums)-1
     while l < r:
@@ -70,3 +71,5 @@ def twoSum(self, nums, target):
         else:
             r -= 1
 
+
+print(twoSum([2, 7, 11, 15], 26))
