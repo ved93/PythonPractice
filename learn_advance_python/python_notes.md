@@ -19,6 +19,8 @@
 
 https://gto76.github.io/python-cheatsheet/
 
+https://medium.com/python-features/magic-methods-demystified-3c9e93144bf7
+
 1. Run with python -i scriptname. It will run interpereter mode . and you can work like jupyter notebook
 2. import pdb; pdb.pm(); It directly takes you to where exactly is the error.
 3. To 
